@@ -1,5 +1,6 @@
 
-
+# Data life cycle 
+![](https://i.imgur.com/GBBhMUG.png)
 - **Data as a Product**: This implies that data is not just raw information; it is processed, packaged, and maintained to serve specific functions, similar to a product in the market.
 
 - **Life-Cycle of a Data Product :** This refers to the various stages that a data product goes through from its initial conception to its eventual archiving or disposal.
@@ -23,4 +24,4 @@
 - **Data Retention or Archiving Process ex: (Hot or Cold Storage)**: Finally, this refers to the policies and processes for retaining data for future use or regulatory compliance. Data may be stored in 'hot' storage for immediate access or 'cold' storage for long-term archiving where immediate access is not required.
 
 
-![](https://i.imgur.com/GBBhMUG.png)
+
