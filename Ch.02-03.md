@@ -1,0 +1,18 @@
+# Physical Layer 
+- It's the lowest level in the database architecture.
+- Describes *how data is physically stored* on storage devices.
+- Details the specific data structures used.
+- Allows modifications to the physical storage aspects without affecting the logical schema (the design of the database).
+- **Modifications that can be made at the Physical Layer include:**
+	- Using a new storage device.
+	- Changing the data structure utilized for storage.
+	- Altering the file type or adopting a different storage structure.
+	- Modifying the method of data access.
+	- Adjusting indexes to optimize performance.
+	- Switching the compression algorithm or hashing technique to improve storage efficiency or security.
+- **Example: Physical Layer in Databases**
+    - The database holds product information.
+    - At the physical layer, the following are described:
+        - The storage mechanism and the size of the blocks (e.g., bytes, gigabytes, terabytes).
+        - The total amount of memory used by the data.
+    - This layer is usually abstracted from programmers, meaning they do not interact directly with the physical layer.

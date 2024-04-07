@@ -1,0 +1,11 @@
+# Data Solution Thinking 
+- **Data Solution Thinking (Logical Layer):**
+    - Tackle issues by considering the specific data layer involved.
+    - Logical Layer:
+        - Address missing data sources by adding them to the logical layer with the appropriate structure.
+        - Resolve performance issues with existing reports by changing the data model, such as reducing complex joins with a materialized view.
+        - Update data types or relationships to correct data inconsistencies or performance problems.
+- **Data Solution Thinking (Physical Layer):**
+    - When issues cannot be resolved by optimizing queries or making adjustments at the logical layer, consider making changes at the physical layer.
+    - This may involve altering the storage, compression methods, data structure, or access techniques to improve system performance.
+    - If there's a need to switch the data orientation structure, for example from row-oriented to column-oriented or to key-value storage, this also indicates a need for changes at the physical layer.
